@@ -35,6 +35,10 @@ main {
     width: 1000px;
 }
 
+.sezione {
+    margin: 30px;
+}
+
 h2 {
     color:rgb(58, 57, 57);
 }
