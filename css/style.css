@@ -18,33 +18,83 @@ h1 {
     font-size: 40px;
 }
 
-.Container {
-    width: 1000px;
-}
-
 header img {
     width:100px;
     line-height: 100%;
     vertical-align: middle;
 }
 
+main {
+    margin-top: 50px;
+}
+
 /* Testi */
+
+#Container {
+    margin: auto;
+    width: 1000px;
+}
 
 h2 {
     color:rgb(58, 57, 57);
 }
 
+ul {
+    display: inline-block;
+}
+
 /* Pulsanti e Icone */
 
-.blue {
-
+button {
+    border: none;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    margin: 4px 2px;
+    cursor: pointer;
 }
 
-.gray {
-    
+.firstbuttons {
+    border-radius: 8px;
 }
 
-.success-checkmark:after {
+#colorblue {
+    background-color: rgb(7, 144, 185);
+}
+
+#colorgray {
+    border: 1px solid;
+    color: gray;
+}
+
+#colorpurple {
+    background-color: darkviolet;
+}
+
+#colorgreen {
+    background-color: #03d47d;
+}
+
+#colororange {
+    background-color: orange;
+}
+
+#colorpink {
+    background-color: violet;
+}
+
+#colorleaf {
+    background-color: greenyellow;
+}
+
+.roundbuttons {
+    border-radius: 20px;
+}
+
+.success-checkmark:before {
     content: '✔';
     left:0; top: 2px;
     width: 20px; 
@@ -60,11 +110,11 @@ h2 {
     color:#01a809;
 }
 
-.failure-checkmark:after {
+.failure-checkmark {
     color:#fd0202;
 }
 
-.failure-checkmark:after {
+.failure-checkmark:before {
     content: '✗';
     left:0; top: 2px;
     width: 20px; 
