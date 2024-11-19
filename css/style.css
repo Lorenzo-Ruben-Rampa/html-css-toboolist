@@ -41,9 +41,11 @@ h2 {
 
 ul {
     display: inline-block;
+    list-style-type: none;
+      
 }
 
-/* Pulsanti e Icone */
+/* Pulsanti */
 
 button {
     border: none;
@@ -93,6 +95,8 @@ button {
 .roundbuttons {
     border-radius: 20px;
 }
+
+/* Icone checkmark */
 
 .success-checkmark:before {
     content: '✔';
