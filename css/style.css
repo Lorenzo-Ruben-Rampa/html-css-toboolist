@@ -1,0 +1,28 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    margin: 20px;
+    height: 70px;
+}
+
+h1 {
+    display: inline-block;
+    text-align: center;
+    line-height: 70px;
+    font-size: 40px;
+}
+
+.Container {
+    width: 1000px;
+}
+
+header img {
+    width:100px;
+    line-height: 100%;
+    vertical-align: middle;
+}
+
