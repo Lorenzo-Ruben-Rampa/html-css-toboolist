@@ -4,6 +4,10 @@
     padding: 0;
 }
 
+body {
+    background-color: aquamarine;
+}
+
 /* Intestazione */
 
 header {
@@ -26,27 +30,33 @@ header img {
 
 main {
     margin-top: 50px;
+    background-color: white;
 }
 
 /* Testi */
 
+
 #Container {
-    margin: auto;
+    margin: 0 auto;
     width: 1000px;
 }
 
 .sezione {
-    margin: 30px;
+    margin-top: 50px;
 }
 
 h2 {
     color:rgb(58, 57, 57);
+    display: inline-block;
 }
 
 ul {
-    display: inline-block;
     list-style-type: none;
-      
+    display: inline-block;
+}
+
+li {
+    margin-top: 10px;
 }
 
 /* Pulsanti */
@@ -116,10 +126,14 @@ button {
 
 .success-checkmark {
     color:#01a809;
+    display: inline-block;
+    margin-right: 20px;
 }
 
 .failure-checkmark {
     color:#fd0202;
+    display: inline-block;
+    margin-right: 20px;
 }
 
 .failure-checkmark:before {
@@ -131,4 +145,4 @@ button {
     border: 1px solid #fd0202;
     background: #f8f8f8;
     border-radius: 50%;
-    box-shadow: inset 0 1px 3px rgba(0,0,0,.3)
+}
